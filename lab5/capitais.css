@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: salmon;
-    z-index: 1000;
+    z-index: 1000; 
 }
 h1 {
     color: rgb(255, 255, 255);
@@ -40,9 +40,21 @@ nav a.link {
 }
 
 nav a.last-link {
-    background-color: #fc9988f1;
+    border-radius: 30px;
+    background-color: #f8ac9ff1;
 }
 
+nav a:nth-child(1) {
+    color: #f1f1f154;
+}
+
+nav a:nth-child(2) {
+    color: #f1f1f19d;
+}
+
+nav a:nth-child(3) {
+    color: #f1f1f1de;
+}
 nav a:hover {
     background-color: #333333; 
     border-radius: 60px;
